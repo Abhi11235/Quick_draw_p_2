@@ -1,0 +1,33 @@
+body
+{
+    background-color:rgb(146, 222, 245);
+}
+
+h1
+{
+    color:blue;
+    background-color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font: size 16px;
+}
+
+p
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:20px;
+    
+}
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border:7px solid black;
+    border-radius:22px;
+    animation-name:example;
+    animation-duration:2s;
+    margin-top:50px;
+    animation-iteration-count:infinite;
+}
